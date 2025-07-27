@@ -1,0 +1,21 @@
+{
+  "hosting": {
+    "rewrites": [
+      {
+        "source": "/dashboard/**",
+        "run": {
+          "serviceId": "market-dashboard",
+          "region": "us-central1"
+        }
+      },
+      {
+        "source": "**",
+        "run": {
+          "serviceId": "kisan-assistant",
+          "region": "us-central1"
+        }
+      }
+    ]
+  }
+}
+
