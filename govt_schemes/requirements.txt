@@ -1,0 +1,7 @@
+google-cloud-storage
+google-cloud-translate
+llama-index
+llama-index-readers-web
+vertexai
+google-cloud-aiplatform==1.104.0
+mammoth
